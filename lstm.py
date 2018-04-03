@@ -5,12 +5,12 @@ from keras.layers import Input, LSTM, Dense
 import numpy as np
 
 batch_size = 64  # Batch size for training.
-epochs = 150 # number of epochs to train for.######here increase the number of epochs
+epochs = 100 # number of epochs to train for.######here increase the number of epochs
 latent_dim = 256  # Latent dimensionality of the encoding space.
 num_samples = 10000  # Number of samples to train on.
 
 # Path to the data txt file on disk.
-data_path = 'ben-eng/ben.txt'
+data_path = 'fra-eng/fra.txt'
 
 # Vectorize the data.
 input_texts = []
